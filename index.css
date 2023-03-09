@@ -71,7 +71,7 @@ body{
     margin-left: 4px;
      
 }
-.scroll-up-btn:hover{
+.scroll-up-btn:hover,:focus{
     filter: invert(75);
     cursor: pointer;
 }
@@ -114,7 +114,7 @@ nav{
     transition: all 0.4s ease;
 
 }
-.right-side li a:hover{
+.right-side li a:hover,:focus{
     color: rgb(225, 39, 76);
     font-size: 1.4rem;
  
@@ -149,7 +149,7 @@ nav{
     border-radius: 3px;
     transition: all 0.4s ease;
 }
-.bugger:hover .line{
+.bugger:hover,:focus .line{
     background-color:#eb1842 ;
     width: 36px;
 }
@@ -197,7 +197,7 @@ nav{
     transition: all 0.4s ease;
 
 }
-.bugger-manue a:hover{
+.bugger-manue a:hover,:focus{
     color: #eb1842;
     font-size: 1.7rem;
 
@@ -214,7 +214,7 @@ nav{
 
 }
 
-.Close:hover{
+.Close:hover,:focus{
     animation: rotat 0.3s ease;
     cursor: pointer;
     color:#eb1842;
@@ -320,7 +320,7 @@ nav{
 
     
 }
-.a-btn:hover{
+.a-btn:hover,:focus{
     font-size: 1.7rem;
     background-color: rgba(255, 255, 255, 0);
     border:3px solid #de0833;
@@ -465,7 +465,7 @@ nav{
 
     display: none;
 }
-.hide-this:hover{
+.hide-this:hover,:focus{
     cursor: pointer;
 }
 
@@ -502,7 +502,7 @@ nav{
     right:-67%;
     transition: all 0.3s ease-in;
 }
-.show-more:hover{
+.show-more:hover,:focus{
     cursor: pointer;
     
 }
@@ -621,7 +621,7 @@ nav{
     margin-top: 5%;
 }
 
-.what-i-know:hover{
+.what-i-know:hover,:focus{
     box-shadow: 2px 2px 6px  rgba(0, 0, 0, 0.587),
     -3px -3px 6px rgb(255, 255, 255)
     ;  
@@ -835,6 +835,7 @@ svg{
 #projects{
     width: 100vw;
     height: 100vh;
+    background-image:linear-gradient(to top,rgba(252, 251, 251, 0.952),rgba(249, 247, 247, 0.669),rgba(247, 245, 245, 0.669),white);
 }
 
 .my-projects{
@@ -861,6 +862,7 @@ svg{
     width: 100%;
     /* background-color: orange; */
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .project-heading h1{
@@ -934,7 +936,7 @@ svg{
     font-family: Ubuntulight;
     ;
 }
-.oder-button:hover{
+.oder-button:hover,:focus{
    background-color:#e72b2800 ;
    border: 2px solid#e72b28; 
    color: #dc143c;
@@ -1049,7 +1051,7 @@ svg{
  
 
 }
-.c-contain-2 a:hover{
+.c-contain-2 a:hover,:focus{
     color: #dc143c;
     background-color: #dc143c33;
     border: 3px solid #dc143c;

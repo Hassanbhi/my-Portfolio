@@ -206,4 +206,4 @@ const changeimg = ()=>{
 
     setTimeout(changeimg,5950)
 }
-whatbox.addEventListener('click',changeimg)
+whatbox.addEventListener('mouseover',changeimg)

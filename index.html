@@ -8,6 +8,8 @@
     <title>my portfolio</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
     <!-- swiper css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
@@ -69,7 +71,7 @@
             </div>
         </div>
     </section>
-    <section id="about">
+    <section id="about" data-aos="fade-left">
         <div class="heading-about">
 
             <h1 class="ubuntu-b">About me</h1>
@@ -93,7 +95,7 @@
             </div>
         </div>
     </section>
-    <section id="skills">
+    <section id="skills" data-aos="fade-right">
         <div class="heading-skills">
             <h1 class=" ubuntu-b">My Skills</h1>
             <p class="ubuntu-l"> <span class="color-red">&lt;</span> What i provide <span class="color-red">&gt;</span>
@@ -210,7 +212,7 @@
     <!-- ---===(starting projects section)===--- -->
 
 
-    <section id="projects">
+    <section id="projects" data-aos="fade-left">
 
         <div class="my-projects">
             <div class="project-heading">
@@ -295,7 +297,7 @@
 
     <!-- starting contact section -->
 
-    <section id="contact">
+    <section id="contact" data-aos="fade-right">
         <div class="contact-heading">
             <h1 class="ubuntu-b">Contact me</h1>
             <div class="lower-heading ubuntu-l">for relaiable services</div>
@@ -356,8 +358,14 @@
 
     <!-- swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+
+    
 
 
         const media = ()=>{
